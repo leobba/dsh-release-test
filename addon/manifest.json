@@ -1,0 +1,14 @@
+{
+  "name": "DSH Release Test",
+  "version": "0.1.0",
+  "description": "一次性端到端测试用插件，测完即删",
+  "manifest_version": 2,
+  "applications": {
+    "zotero": {
+      "strict_min_version": "7.0",
+      "update_url": "https://github.com/leobba/dsh-release-test/releases/download/release/update.json",
+      "id": "dsh-release-test@local",
+      "strict_max_version": "11.*"
+    }
+  }
+}
